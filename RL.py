@@ -8,101 +8,9 @@ getcontext().prec = 10  # Set the precision to 10 decimal places
 alpha=0.01
 gamma=.9
 Testsize=300
-
-'''
 n = 300
 nfog = 30
 ncloud=30
-'''
-
-'''
-n = 300
-nfog = 30
-ncloud=70
-'''
-
-'''
-n = 400
-nfog = 50
-ncloud=80
-'''
-'''
-n = 400
-nfog = 25
-ncloud=50
-'''
-
-'''
-n = 400
-nfog = 35
-ncloud=40
-'''
-
-
-'''
-n = 500
-nfog = 70
-ncloud=100
-'''
-
-'''
-n = 500
-nfog = 30
-ncloud=60
-'''
-
-n = 500
-nfog = 45
-ncloud=45
-
-
-'''
-n = 200
-nfog = 20
-ncloud=50
-'''
-'''
-n = 200
-nfog = 15
-ncloud=30
-'''
-'''
-n = 200
-nfog = 22
-ncloud=23
-'''
-
-
-'''
-n = 150
-nfog = 20
-ncloud=30
-
-'''
-
-'''
-n = 100
-nfog = 10
-ncloud=20
-'''
-
-'''
-n = 100
-nfog = 15 
-ncloud=15
-'''
-
-
-'''
-n = 100
-nfog = 10
-ncloud=20
-'''
-'''
-n = 70
-nfog = 5
-ncloud=15
-'''
 
 totalnodes=nfog+ncloud
 
@@ -161,8 +69,6 @@ Assigned_Resource=np.zeros(n)
 #----------------------------------------------------------------------------------------
 #------------------------------   Resource specification---------------------------------
 #----------------------------------------------------------------------------------------
-
-#ResourcePerformance= [6,8,12,14,15,16,17]
 
 a_size_fognode=3000
 b_size_fognode=5000
